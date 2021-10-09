@@ -124,7 +124,7 @@ h2 {
 .waiting {
     height: 607px;
     background: #EFEFEF;
-    padding: 85px 0 75px 0;
+    padding: 50px 0 75px 0;
 }
 
 .waiting .waiting_header {
@@ -154,13 +154,12 @@ h2 {
 }
 
 .waiting .waiting_wrapper {
+    display: flex;
+    justify-content: space-between;
     margin-top: 45px;
 }
 
 .waiting .waiting_wrapper .waiting_item {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 15px;
     width: 339px;
     text-align: center;
 }
